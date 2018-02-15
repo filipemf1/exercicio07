@@ -6,7 +6,7 @@ public class Exercicio7 {
         int a[] = new int [30];
         float mediaN = 0;
         float mediaP = 0;
-        int contP = 0;
+        int ctP = 0;
         int contN = 0;
         
         Random random = new Random();
@@ -22,12 +22,12 @@ public class Exercicio7 {
             }else{
                 
             mediaP+=a[i];
-            contP++;
+            ctP++;
                  }
             
         }
         mediaN = mediaN/contN;
-        mediaP = mediaP/contP;
+        mediaP = mediaP/ctP;
         System.out.println("");
         System.out.println(mediaP);
         System.out.println(mediaN);
